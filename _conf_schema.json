@@ -1,0 +1,26 @@
+{
+  "story_style": {
+    "description": "故事风格",
+    "hint": "AI 生成故事时使用的风格基调。",
+    "type": "string",
+    "default": "轻松幽默的奇幻冒险"
+  },
+  "story_length": {
+    "description": "故事长度",
+    "hint": "AI 生成故事的字数下限/上限，会作为提示词传给模型。",
+    "type": "string",
+    "default": "300-600字"
+  },
+  "max_messages": {
+    "description": "读取消息条数上限",
+    "hint": "调用 get_group_msg_history 时最多向历史方向回溯多少条消息（每页20条，按页拉取）。",
+    "type": "int",
+    "default": 80
+  },
+  "story_language": {
+    "description": "故事语言",
+    "hint": "生成故事所使用的语言。",
+    "type": "string",
+    "default": "中文"
+  }
+}

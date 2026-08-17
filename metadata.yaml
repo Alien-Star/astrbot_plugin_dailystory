@@ -1,0 +1,9 @@
+name: astrbot_plugin_dailystory
+display_name: 今日群聊小故事
+desc: 读取当天群聊消息记录，以提问的用户为主角，调用 AI 生成一段并不生动也不有趣的短篇小故事。
+version: v1.1.0
+author: AlienStar
+repo: https://github.com/Alien-Star/astrbot_plugin_dailystory
+astrbot_version: ">=4.5.0"
+support_platforms:
+  - aiocqhttp
